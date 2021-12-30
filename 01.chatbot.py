@@ -24,7 +24,7 @@ def chat(request):
                     index = request.index(word)
                 else:
                     if index < request.index(word, index):
-                        index = request.index(word, index):
+                        index = request.index(word, index)
                     else:
                         index = -1
                         break
